@@ -1,8 +1,5 @@
 {
     "data": {
-        "file-browser-filebrowser:cwd": {
-            "path": ""
-        },
         "layout-restorer:data": {
             "main": {
                 "dock": {
@@ -15,7 +12,7 @@
                     "children": [
                         {
                             "type": "tab-area",
-                            "currentIndex": 1,
+                            "currentIndex": 0,
                             "widgets": [
                                 "notebook:00_overview.ipynb"
                             ]
@@ -88,10 +85,13 @@
                 ]
             },
             "relativeSizes": [
-                0.14820850561134083,
-                0.8517914943886592,
+                0.13545601726929304,
+                0.864543982730707,
                 0
             ]
+        },
+        "file-browser-filebrowser:cwd": {
+            "path": ""
         },
         "notebook:00_overview.ipynb": {
             "data": {
@@ -99,35 +99,41 @@
                 "factory": "Notebook"
             }
         },
+        "dask-dashboard-launcher": {
+            "url": "DASK_DASHBOARD_URL",
+            "cluster": ""
+        },
         "dask-dashboard-launcher:/individual-task-stream": {
             "data": {
-                "route": "/individual-task-stream",
-                "label": "Task Stream",
-                "key": "Task Stream"
+                "item": {
+                    "route": "/individual-task-stream",
+                    "label": "Task Stream",
+                    "key": "Task Stream"
+                }
             }
         },
         "dask-dashboard-launcher:/individual-progress": {
             "data": {
-                "route": "/individual-progress",
-                "label": "Progress",
-                "key": "Progress"
+                "item": {
+                    "route": "/individual-progress",
+                    "label": "Progress",
+                    "key": "Progress"
+                }
             }
         },
         "dask-dashboard-launcher:/individual-workers-memory": {
             "data": {
-                "route": "/individual-workers-memory",
-                "label": "Workers Memory",
-                "key": "Workers Memory"
+                "item": {
+                    "route": "/individual-workers-memory",
+                    "label": "Workers Memory",
+                    "key": "Workers Memory"
+                }
             }
-        },
-        "dask-dashboard-launcher": {
-            "url": "DASK_DASHBOARD_URL",
-            "cluster": ""
         }
     },
     "metadata": {
         "id": "default",
-        "last_modified": "2022-10-27T18:31:51.619821+00:00",
-        "created": "2022-10-27T18:31:51.619821+00:00"
+        "last_modified": "2022-11-03T16:50:58.815668+00:00",
+        "created": "2022-11-03T16:50:58.815668+00:00"
     }
 }
